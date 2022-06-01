@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Send Request Postman</title>
 </head>
 <body>
+    <div class="search-tittle">
+        <div class="input-group">
+            <div id="search-autocomplete" class="form-outline">
+              <input placeholder="Search city" type="search" id="form1" class="form-control" />
+              <label class="form-label" for="form1"></label>
+            </div>
+            <button style="position:relative;right: -240px;height:40px;" type="button" class="btn btn-primary">Search
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+    <select style="height: 40px; width:200px; right: 900px; position: relative;" class="form-select" aria-label="Default select example">
+        <option value="1">Celsius</option>
+        <option value="2">Fahrenheit</option>
+      </select>
+    </div>
+    <div class="result">
+        <h5>City:</h5>
+        <h5>Country:</h5>
+        <h5>Weather Forecast:</h5>
+        <h5 style="position: relative; top: 20px;">Sky Condition:</h5>
+    </div>
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="/assets/script/script.js"></script>
 </html>
